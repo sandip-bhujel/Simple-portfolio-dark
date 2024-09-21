@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "karla", sans-serif;
+}
+/* h2 {
+  font-family: "karla", sans-serif;
+  margin: 10px;
+  font-size: 40px;
+} */
+.logo {
+  /* color: linear-gradient(
+    90deg,
+    #14ffe9,
+    #cb49ff,
+    red 20%,
+    yellow 50%,
+    green 80%
+  ); */
+  color: #df1655;
+  font-family: "karla", sans-serif;
+  margin: 10px;
+  font-size: 20px;
+}
+
+/* 
+.container {
+  height: 100vh;
+  width: 100%;
+  background-image: url(hunt.jpg);
+  background-position: center;
+  background-size: cover;
+} */
+body {
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background-image: url(hunt.jpg); */
+}
+nav {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  justify-content: space-between;
+  transition-duration: 0.5s;
+}
+a {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+ul,
+li {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around;
+  justify-content: space-between;
+  padding-left: 100px;
+  /* transition-duration: 0.5s; */
+}
+nav,
+ul,
+li,
+a:hover {
+  color: #f9004d;
+  transition-duration: 0.5s;
+}
+.login {
+  padding: 4px;
+  margin-top: 20px;
+  color: #df1655;
+  font-size: 10px;
+  border-radius: 5rem;
+  margin: 25px;
+  border: 1px solid white;
+  background-color: rgb(49, 77, 90);
+}
+.register {
+  margin-top: 20px;
+  align-items: center;
+  padding: 5px;
+  margin: 25px;
+  border: 1px solid white;
+  color: #df1655;
+  font-size: 10px;
+  border-radius: 5rem;
+  background-color: rgb(49, 77, 90);
+}
+
+/* h3 {
+  color: white;
+}
+p {
+  color: white;
+} */
+.content {
+  margin-top: 300px;
+  max-width: 500px;
+  color: white;
+  padding-left: 40px;
+}
+h4 {
+  margin-bottom: 10px;
+}
+p {
+  color: #df1655;
+  font-size: 15px;
+  line-height: 17px;
+}
+.link {
+  margin-top: 20px;
+  padding-left: 100px;
+  background-color: #360a2d;
+  border: 1px solid white;
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+  border-radius: 6rem;
+  margin-left: 100px;
+  font-family: Verdana;
+  transition: 0.5s;
+  font-weight: bold;
+  font-size: 10px;
+}
+/* link.hire {
+  color: #f9004d;
+  background-color: #fff;
+  text-decoration: none;
+  border-radius: 6rem;
+  border: 2px solid white;
+} */
