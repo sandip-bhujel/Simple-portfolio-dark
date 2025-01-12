@@ -24,7 +24,6 @@
   font-size: 20px;
 }
 
-
 /* 
 .container {
   height: 100vh;
@@ -34,6 +33,7 @@
   background-size: cover;
 } */
 body {
+  background-image: url("./assets/image/hunt.jpg");
   background-color: black;
   height: 100vh;
   width: 100%;
@@ -93,12 +93,19 @@ a:hover {
   background-color: rgb(49, 77, 90);
 }
 
-/* h3 {
-  color: white;
+.button {
+  margin-top: 20px;
 }
-p {
-  color: white;
-} */
+.login:hover {
+  color: aliceblue;
+  background: #9c6476;
+  transition-duration: 0.5s;
+}
+.register:hover {
+  color: aliceblue;
+  background: #9c6476;
+  transition-duration: 0.5s;
+}
 .content {
   margin-top: 300px;
   max-width: 500px;
@@ -128,10 +135,3 @@ p {
   font-weight: bold;
   font-size: 10px;
 }
-/* link.hire {
-  color: #f9004d;
-  background-color: #fff;
-  text-decoration: none;
-  border-radius: 6rem;
-  border: 2px solid white;
-} */
